@@ -1,0 +1,17 @@
+edu\azati\textparser\entity\Word.class
+edu\azati\textparser\entity\Sentence.class
+edu\azati\textparser\parsers\ParagraphParser.class
+edu\azati\textparser\entity\Text.class
+edu\azati\textparser\entity\Punctuation.class
+edu\azati\textparser\services\FileService.class
+edu\azati\textparser\parsers\SentenceParser.class
+edu\azati\textparser\parsers\TextParser.class
+edu\azati\textparser\services\WordService.class
+edu\azati\textparser\entity\Space.class
+edu\azati\textparser\services\SentenceCompService.class
+edu\azati\textparser\services\ParagraphService.class
+edu\azati\textparser\services\SentenceService.class
+edu\azati\textparser\entity\enums\TypeSymbol.class
+edu\azati\textparser\entity\SentenceComponent.class
+edu\azati\textparser\entity\Paragraph.class
+edu\azati\textparser\services\TextService.class

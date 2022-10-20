@@ -1,0 +1,17 @@
+C:\Users\User\IdeaProjects\TestParserProject\src\main\java\edu\azati\textparser\services\WordService.java
+C:\Users\User\IdeaProjects\TestParserProject\src\main\java\edu\azati\textparser\entity\Word.java
+C:\Users\User\IdeaProjects\TestParserProject\src\main\java\edu\azati\textparser\services\FileService.java
+C:\Users\User\IdeaProjects\TestParserProject\src\main\java\edu\azati\textparser\services\ParagraphService.java
+C:\Users\User\IdeaProjects\TestParserProject\src\main\java\edu\azati\textparser\parsers\SentenceParser.java
+C:\Users\User\IdeaProjects\TestParserProject\src\main\java\edu\azati\textparser\services\SentenceService.java
+C:\Users\User\IdeaProjects\TestParserProject\src\main\java\edu\azati\textparser\entity\SentenceComponent.java
+C:\Users\User\IdeaProjects\TestParserProject\src\main\java\edu\azati\textparser\entity\Space.java
+C:\Users\User\IdeaProjects\TestParserProject\src\main\java\edu\azati\textparser\parsers\TextParser.java
+C:\Users\User\IdeaProjects\TestParserProject\src\main\java\edu\azati\textparser\parsers\ParagraphParser.java
+C:\Users\User\IdeaProjects\TestParserProject\src\main\java\edu\azati\textparser\entity\Sentence.java
+C:\Users\User\IdeaProjects\TestParserProject\src\main\java\edu\azati\textparser\services\SentenceCompService.java
+C:\Users\User\IdeaProjects\TestParserProject\src\main\java\edu\azati\textparser\entity\Punctuation.java
+C:\Users\User\IdeaProjects\TestParserProject\src\main\java\edu\azati\textparser\services\TextService.java
+C:\Users\User\IdeaProjects\TestParserProject\src\main\java\edu\azati\textparser\entity\Paragraph.java
+C:\Users\User\IdeaProjects\TestParserProject\src\main\java\edu\azati\textparser\entity\Text.java
+C:\Users\User\IdeaProjects\TestParserProject\src\main\java\edu\azati\textparser\entity\enums\TypeSymbol.java
