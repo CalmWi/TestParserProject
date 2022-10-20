@@ -2,9 +2,11 @@ import edu.azati.textparser.entity.Paragraph;
 import edu.azati.textparser.entity.Sentence;
 import edu.azati.textparser.entity.Text;
 import edu.azati.textparser.entity.Word;
-import edu.azati.textparser.parsers.SentenceParser;
 import edu.azati.textparser.parsers.TextParser;
-import edu.azati.textparser.services.*;
+import edu.azati.textparser.services.FileService;
+import edu.azati.textparser.services.SentenceService;
+import edu.azati.textparser.services.TextService;
+import edu.azati.textparser.services.WordService;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -35,34 +37,36 @@ public class TextRarserTest {
 
     @Test
     public void task1Test() {
-        ArrayList<Sentence> sentences = TextService.task1(text,2);
-        for(Sentence sentence:sentences){
-            WordService.swapSymbol(SentenceService.getWordByIndex(sentence,2));
+        ArrayList<Sentence> sentences = TextService.task1(text, 2);
+        for (Sentence sentence : sentences) {
+            WordService.swapSymbol(SentenceService.getWordByIndex(sentence, 2));
         }
         System.out.println(text);
     }
 
     @Test
     public void task2Test() {
-        ArrayList<Sentence> sentences = TextService.task1(text,3);
-        for (Sentence sentence : sentences){
+        ArrayList<Sentence> sentences = TextService.task1(text, 3);
+        for (Sentence sentence : sentences) {
             SentenceService.reverseSentence(sentence);
         }
         System.out.println(text);
     }
+
     @Test
-    public void task3Test(){
-        for(Paragraph paragraph:text.getParagraphs()){
-            for (Sentence sentence:paragraph.getSentences()){
-                Word word = SentenceService.getWordByIndex(sentence,3);
+    public void task3Test() {
+        for (Paragraph paragraph : text.getParagraphs()) {
+            for (Sentence sentence : paragraph.getSentences()) {
+                Word word = SentenceService.getWordByIndex(sentence, 3);
                 StringBuilder stringBuilder = new StringBuilder("OOO");
                 word.setWord(stringBuilder);
             }
         }
         System.out.println(text);
     }
+
     @Test
-    public void task4Test(){
+    public void task4Test() {
         int a = 2;
         int b = 3;
         System.out.println("a = " + a + " b = " + b);

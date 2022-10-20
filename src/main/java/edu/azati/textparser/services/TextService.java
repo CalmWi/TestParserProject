@@ -18,7 +18,6 @@ public class TextService {
             for (Sentence sentence : paragraph.getSentences()) {
                 if (i % index == index - 1) {
                     sentences.add(sentence);
-                    //WordService.swapSymbol(SentenceService.getWordByIndex(sentence, 2));
                 }
                 i++;
             }

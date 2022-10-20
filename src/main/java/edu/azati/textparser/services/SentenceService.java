@@ -25,7 +25,7 @@ public class SentenceService {
     public static void reverseSentence(Sentence sentence) {
         ArrayList<SentenceComponent> newSentenceComps = new ArrayList<>();
         for (int i = sentence.getSentenceComponents().size() - 1; i >= 0; i--) {
-            if(sentence.getSentenceComponents().get(i)instanceof Word){
+            if (sentence.getSentenceComponents().get(i) instanceof Word) {
                 ((Word) sentence.getSentenceComponents().get(i)).getWord().reverse();
             }
             newSentenceComps.add(sentence.getSentenceComponents().get(i));
